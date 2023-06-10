@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<!--Logoverse is an engaging logo quiz game that takes players on an exciting journey through the world of social media and gaming apps. In Logoverse, players are presented with various logos representing popular social media platforms and gaming applications. The objective is to correctly identify each logo. Logoverse tests players' knowledge and recognition skills while providing an entertaining and educational gaming experience. Explore the vibrant Logoverse and put your logo expertise to the test!-->
+<head>
+  <title>LogoVerse</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <h1>WELCOME TO LOGOVERSE</h1>
+
+   <div id="opening-container">
+    <h2>Are you ready to test your knowledge of social media platforms?</h2> 
+    <p>*Note: Please use lowercase to answer the questions.</p>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+  
+<div id="quiz-container" style="display: none;">
+
+       <div id="question-container">
+      <div id="question"></div>
+      <img id="icon-image" src="" alt="Social Media Icon">
+      <input type="text" id="answer-input" placeholder="Enter your answer">
+      <button id="submit-btn">Submit</button>
+    </div>
+  
+
+
+    <div id="result-container">
+      <h3>Your Score: <span id="score"></span></h3>
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+
+  <div id="copyright">
+    <h5>Created by Jastine Mallare</h5>
+    </div>
+
+
+
+</body>
+</html>
